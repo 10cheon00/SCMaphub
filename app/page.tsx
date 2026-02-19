@@ -1,4 +1,4 @@
-import { MainLayout } from "./main";
+import { MainLayout } from "../components/map-list-layout";
 import { supabase } from "@/lib/supabase";
 
 export default async function Page() {

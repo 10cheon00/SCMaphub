@@ -66,7 +66,7 @@ export function MapLog({
               <a
                 href={downloadUrl}
                 download={downloadName ?? true}
-                className="flex items-center gap-2 text-slate-500 hover:text-slate-600"
+                className="flex items-center gap-2 text-slate-500 hover:text-slate-600 hover:underline"
               >
                 <FileText className="h-4 w-4" />
                 <span className="text-sm font-medium">
